@@ -10,7 +10,7 @@ export default function Support(){
                     <label htmlFor="name" className="mb-2 text-gray-700 font-medium">
                       Your Name :
                     </label>
-                    <input type='text' className='text-[#858484]  p-2 border border-gray-300 focus:outline-none bg-[#E0EDF7]' />
+                    <input type='text' className='text-[#858484] p-2 border border-gray-300 focus:outline-none bg-[#E0EDF7]' />
                 </div>
                 <div className="flex flex-col">
                <label htmlFor="options" className="text-gray-700 font-medium mb-2">

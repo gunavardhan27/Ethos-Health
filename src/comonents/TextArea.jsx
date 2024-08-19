@@ -1,4 +1,4 @@
-export default function TextArea({first,second,third}){
+export default function TextArea({first=null,second=null,third=null}){
     return (
         <div className='grid gird-cols-2 w-full'>
                     <label htmlFor="name" className="mb-2">
