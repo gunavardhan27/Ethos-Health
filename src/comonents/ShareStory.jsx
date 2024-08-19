@@ -33,7 +33,14 @@ export default function ShareStory(){
                 third={'To anyone struggling I want to know...'}/>
             </form> :
             <form className="flex flex-col items-start w-full gap-4 basis-11/12 h-24">
-                <TextArea />
+                <div className='grid gird-cols-2 w-full'>
+                <label htmlFor="data" className="mb-2">             
+                </label>
+            <textarea className=" bg-[#E0EDF7] h-20 p-2 text-[#858484]">
+                Start Here...
+            </textarea>
+        </div>
+
 
             </form>
             }
