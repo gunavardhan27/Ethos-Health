@@ -15,9 +15,7 @@ export default function ShareStory(){
                 <div className="flex items-end justify-end">
                     <button className="bg-[#858484] p-2 rounded-lg text-white hover:bg-[#E0EDF7] hover:text-black"
                     onClick={handleHints}>{hint ? 'Disable Hints' : 'Enable Hints'}</button>
-                </div>
-
-                
+                </div>                
                 <form className="flex flex-col items-start w-full gap-4 basis-11/12">
                 
                 {hint ? <div className="w-full"><TextArea first={'Your starting point'} second={'Think back to when your mental health challenge began.What was happening in your life?'} 
