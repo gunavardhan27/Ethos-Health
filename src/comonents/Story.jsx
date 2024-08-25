@@ -148,11 +148,11 @@ export default function Story(){
             <h1 className="text-4xl font-bold">Stories</h1>
             <div className="grid grid-cols-3 items-center justify-center w-[90%] mt-4 shadow-black shadow-md gap-10 p-10">
                 {currentArticles.map((article)=>(
-                    <div className={`min-h-[447px] flex flex-col items-left p-4 justify-start gap-4 shadow-black shadow-sm rounded-md
+                    <div className={`min-h-[400px] flex flex-col items-left p-4 justify-start gap-4 shadow-black shadow-sm rounded-md
                     ${article.id%2 ? 'bg-[#9EB1D9]' : 'bg-[#E0EDF7]'}`}>
-                        <FaComment className={`w-[60px] h-[75px] ${article.id%2 ? 'text-white' : 'text-black'} mb-11 `} />
+                        <FaComment className={`w-[60px] h-[75px] ${article.id%2 ? 'text-white' : 'text-black'} mb-8 `} />
                         <p className="text-lg font-semibold">{article.title}</p>
-                        <button className="text-right mb-20">readMore...</button>
+                        <button className="text-right mb-8">readMore...</button>
                         <p>{article.name},{article.country}</p>
                         <p className="flex flex-row items-end justify-end">
                         <CiHeart className="w-[30px] h-[40px] mt-2" />
