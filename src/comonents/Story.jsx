@@ -75,56 +75,56 @@ export default function Story(){
           country: "Egypt"
         },
         {
-            id:9,
+            id:10,
           title: "The Impact of Social Media on Mental Health",
           description: "Analyzing how social media affects mental well-being, particularly among young adults.",
           name: "Maria Rodriguez",
           country: "Spain"
         },
         {
-            id:10,
+            id:11,
           title: "Self-Care Tips for Mental Health",
           description: "Practical self-care tips to maintain mental health and prevent burnout.",
           name: "Hiroshi Tanaka",
           country: "Japan"
         },
         {
-            id:11,
+            id:12,
           title: "Understanding PTSD",
           description: "A guide to understanding post-traumatic stress disorder and how to seek help.",
           name: "Fatima Khan",
           country: "Pakistan"
         },
         {
-            id:12,
+            id:13,
           title: "Mental Health First Aid",
           description: "How to provide first aid for mental health emergencies in everyday situations.",
           name: "Nathan Thompson",
           country: "New Zealand"
         },
         {
-            id:13,
+            id:14,
           title: "The Connection Between Sleep and Mental Health",
           description: "Exploring how sleep quality affects mental health and strategies for better sleep.",
           name: "Olivia Wilson",
           country: "Ireland"
         },
         {
-            id:14,
+            id:15,
           title: "Combating Loneliness",
           description: "Ways to combat loneliness and build meaningful social connections.",
           name: "Akira Yamamoto",
           country: "South Korea"
         },
         {
-            id:15,
+            id:16,
           title: "Mindful Eating and Mental Health",
           description: "How mindful eating practices can improve mental health and overall well-being.",
           name: "Isabella Costa",
           country: "Italy"
         },
         {
-            id:16,
+            id:17,
           title: "Recognizing Signs of Mental Illness",
           description: "A guide to recognizing the early signs of mental illness in yourself and others.",
           name: "Ali Rahman",
@@ -146,7 +146,7 @@ export default function Story(){
     return (
         <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold">Stories</h1>
-            <div className="grid grid-cols-3 items-center justify-center w-[90%] mt-4 shadow-black shadow-md gap-10 p-10">
+            <div className="grid grid-cols-3 items-center justify-center w-[90%] mt-4 shadow-black shadow-md gap-10 p-6">
                 {currentArticles.map((article)=>(
                     <div className={`min-h-[400px] flex flex-col items-left p-4 justify-start gap-4 shadow-black shadow-sm rounded-md
                     ${article.id%2 ? 'bg-[#9EB1D9]' : 'bg-[#E0EDF7]'}`}>
