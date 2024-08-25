@@ -3,7 +3,7 @@ import mentalhealth from './../../assets/images/mental-health.jpg'
 import mission from './../../assets/images/mission.jpg'
 import plan from './../../assets/images/plan.jpg'
 import {motion} from 'framer-motion'
-const Aboutus = () => {
+const AboutUs = () => {
   return (
 <div className="w-full flex flex-col items-center justify-center p-20 gap-5" id="#about">
 
@@ -78,4 +78,4 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus
+export default AboutUs
