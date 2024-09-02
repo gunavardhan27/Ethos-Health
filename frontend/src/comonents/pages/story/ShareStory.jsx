@@ -1,5 +1,5 @@
 import { useState } from "react"
-import TextArea from "./TextArea"
+import TextArea from "../../TextArea"
 export default function ShareStory(){
     
     const [hint,setHint] = useState(true)

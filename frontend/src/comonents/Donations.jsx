@@ -1,5 +1,6 @@
 import image from "../assets/dn.png";
 import DropDown from "./DropDown";
+import ShareStory from "./pages/story/ShareStory";
 export default function Donations() {
   return (
     <div className="pt-28">
@@ -100,6 +101,7 @@ export default function Donations() {
         </form>
         <img src={image} className="h-[425px] w-[314px] flex basis-1/3" />
       </div>
+      <ShareStory/>
     </div>
   );
 }
